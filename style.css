@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenitore {
+  width: 100vw;
+  height: 100vh;
+}
+.sidebar {
+  position: relative;
+  float: left;
+  width: 15%;
+  height: 100%;
+  text-align: center;
+  overflow-y: auto;
+  cursor: pointer;
+}
+.casellaCodice {
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+.mainGiocatore {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 85%;
+  height: 100%;
+  text-align: center;
+  background: lightgrey;
+}
+.datiGiocatore {
+  width: 30%;
+  height: 60%;
+  margin: auto;
+  background: yellow;
+  display: none;
+}
+.formaGiocatore ul li {
+  list-style: none;
+}
+.template {
+  display: none;
+}
+.active {
+  display: block;
+}
