@@ -14,8 +14,6 @@ $.ajax({
 
       var casella = $('.template .casellaCodice').clone();
 
-      console.log(casella);
-
       var codiceGiocatore = ajax[i].playerCode;
 
       console.log(codiceGiocatore);

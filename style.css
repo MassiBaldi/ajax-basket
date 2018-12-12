@@ -6,12 +6,16 @@
 .contenitore {
   width: 100vw;
   height: 100vh;
+  background-image: url('http://www.radiomontecarlo.net/resizer/1050/-1/true/1475482369362_1475482491.jpg--basket_su_un_maxischermo_di_led__in_giappone_il_campo_da_basket_sembra_un_videogioco.jpg?1475482492000');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .sidebar {
   position: relative;
   float: left;
   width: 15%;
   height: 100%;
+  border-right: 1px solid lightgrey;
   text-align: center;
   overflow-y: auto;
   cursor: pointer;
@@ -23,23 +27,26 @@
   padding: 10px;
   text-align: center;
   border-bottom: 1px solid lightgrey;
+  color: white;
 }
-
 .mainGiocatore {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   float: left;
   width: 85%;
   height: 100%;
   text-align: center;
-  background: lightgrey;
 }
-.datiGiocatore {
-  width: 30%;
-  height: 60%;
-  margin: auto;
-  background: yellow;
-  display: none;
+.formaGiocatore {
+  width: 300px;
+  height: auto;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  border: 3px solid lightgrey;
+  border-radius: 10px;
+
 }
 .formaGiocatore ul li {
   list-style: none;
